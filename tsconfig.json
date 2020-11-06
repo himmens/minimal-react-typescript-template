@@ -1,0 +1,44 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "baseUrl": "./",
+        "paths": {
+            "app/*": [
+                "src/app/*"
+            ]
+        },
+        "sourceMap": true,
+        "strict": false,
+        "removeComments": true,
+        "noImplicitAny": false,
+        "strictNullChecks": false,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "resolveJsonModule": true,
+        "downlevelIteration": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react",
+        "lib": [
+            "es5",
+            "es6",
+            "dom"
+        ],
+        "typeRoots": [
+            "./typings",
+            "./node_modules/@types"
+        ]
+    },
+    "include": [
+        "./src/**/*",
+        "./typings/*.d.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}

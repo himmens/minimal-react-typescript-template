@@ -1,0 +1,14 @@
+node_modules
+dist/
+build/
+.idea
+.vscode
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+.DS_Store
+__diff_output__
